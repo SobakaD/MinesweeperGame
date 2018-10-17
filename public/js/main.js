@@ -1,5 +1,5 @@
 ﻿$(document).ready(async function () {
-    const result = await $.get('api', (method: 'changeDirection', id: 12, direction: 'left'));
+    const result = await $.get();
 
     console.log(result);
 });
